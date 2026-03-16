@@ -1,0 +1,178 @@
+ body {
+        background-color: gray;
+        margin: 0;
+        }
+
+
+.row{
+          
+background-color: aqua;            
+        }
+
+.blc{
+ width: 100%; 
+ height: 300px;
+}
+
+
+
+
+.blc h1{
+
+
+height: 70px;
+font-size: 48px;
+font-weight: 700;
+
+margin-left: 6px;
+
+display: inline-block;
+
+}
+
+.blc h3{
+
+font-weight: 400;
+font-style: italic;
+
+position: absolute;
+margin-top: 14px;
+margin-left: 14px;
+display: inline-block;
+
+}
+
+.blc p{
+font-size: 18px;
+font-weight: 440;
+   
+margin-left: 6px;
+}
+ 
+
+
+
+
+.blc2{
+width: 100%;
+  height: 300px;
+
+
+    align-content: center;   
+   justify-content: center;
+    text-align: center;           
+
+}
+.blc2 h4{
+
+font-size: 24px;
+font-style: italic;
+font-weight:400;
+
+}
+
+
+
+
+
+/* block colors */
+
+
+#bt{
+    background-color:saddlebrown;
+    color: orange;
+}
+#bt2{
+    background-color: orange;
+    color: saddlebrown;
+}
+
+
+
+
+#pt{
+    background-color:rgb(10, 0, 21);
+    color: royalblue;
+}
+#pt2{
+    background-color: royalblue;
+    color: rgb(10, 0, 21);
+}
+
+
+
+
+#dk{
+    background-color:black;
+    color: steelblue;
+}
+#dk2{
+    background-color: steelblue;
+    color: black;
+}
+
+
+
+
+#in{
+    background-color:darkblue;
+    color: crimson;
+}
+#in2{
+    background-color: crimson;
+    color: darkblue;
+}
+
+
+
+#dkr{
+    background-color:#181712;
+    color: #b5a893;
+}
+#dkr2{
+    background-color: #b5a893;
+    color: #181712;
+}
+
+
+
+
+#it{
+    background-color:black;
+    color: whitesmoke;
+}
+#it2{
+    background-color: whitesmoke;
+    color: black;
+}
+
+
+#dn{
+    background-color:chocolate;
+    color: khaki;
+}
+#dn2{
+    background-color: khaki;
+    color: chocolate;
+}
+
+
+
+#tn{
+    background-color:#d1d5be;
+    color: darkslategray;
+}
+#tn2{
+    background-color: darkslategray;
+    color: #d1d5be;
+}
+
+
+#opp{
+    background-color: brown;
+    color: orange;
+}
+#opp2{
+    background-color: orange;
+    color: brown;
+}
