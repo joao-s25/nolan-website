@@ -1,66 +1,88 @@
- body {
-        background-color: gray;
-        margin: 0;
-        }
+body {
+background-color: gray;
+margin: 0;
+}
 
 
 .row{
-          
+margin: 0;     
 background-color: aqua;            
-        }
+}
+
+
+
 
 .blc{
- width: 100%; 
- height: 300px;
-}
-
-
-
-
-.blc h1{
-
-
-height: 70px;
-font-size: 48px;
-font-weight: 700;
-
-margin-left: 6px;
-
-display: inline-block;
-
-}
-
-.blc h3{
-
-font-weight: 400;
-font-style: italic;
-
-position: absolute;
-margin-top: 14px;
-margin-left: 14px;
-display: inline-block;
+width: 100%; 
+height: 300px;
+position: relative;
 
 }
 
 .blc p{
 font-size: 18px;
 font-weight: 440;
-   
+
 margin-left: 6px;
 }
- 
+
+
+
+
+.tl{
+display: flex;
+align-items: center;
+
+flex-wrap: nowrap;
+gap: 10px;
+position: relative;
+
+}
+
+
+.tl h1{
+
+font-size: clamp(30px, 5vw, 48px);
+
+height: clamp (24px, 5vw, 70px);
+
+font-weight: 700;
+
+
+display: inline-block;
+
+}
+
+.tl h3{
+
+
+font-size: clamp(16px, 5, 30px);
+
+font-weight: 400;
+font-style: italic;
+
+margin-left: 2%;
+display:inline-block;
+
+}
+
+
+
+
 
 
 
 
 .blc2{
 width: 100%;
-  height: 300px;
+height: 300px;
 
 
-    align-content: center;   
-   justify-content: center;
-    text-align: center;           
+align-content: center;   
+justify-content: center;
+text-align: center;     
+
+padding: 50px;
 
 }
 .blc2 h4{
@@ -79,100 +101,100 @@ font-weight:400;
 
 
 #bt{
-    background-color:saddlebrown;
-    color: orange;
+background-color:saddlebrown;
+color: orange;
 }
 #bt2{
-    background-color: orange;
-    color: saddlebrown;
+background-color: orange;
+color: saddlebrown;
 }
 
 
 
 
 #pt{
-    background-color:rgb(10, 0, 21);
-    color: royalblue;
+background-color:rgb(10, 0, 21);
+color: royalblue;
 }
 #pt2{
-    background-color: royalblue;
-    color: rgb(10, 0, 21);
+background-color: royalblue;
+color: rgb(10, 0, 21);
 }
 
 
 
 
 #dk{
-    background-color:black;
-    color: steelblue;
+background-color:black;
+color: steelblue;
 }
 #dk2{
-    background-color: steelblue;
-    color: black;
+background-color: steelblue;
+color: black;
 }
 
 
 
 
 #in{
-    background-color:darkblue;
-    color: crimson;
+background-color:darkblue;
+color: crimson;
 }
 #in2{
-    background-color: crimson;
-    color: darkblue;
+background-color: crimson;
+color: darkblue;
 }
 
 
 
 #dkr{
-    background-color:#181712;
-    color: #b5a893;
+background-color:#181712;
+color: #b5a893;
 }
 #dkr2{
-    background-color: #b5a893;
-    color: #181712;
+background-color: #b5a893;
+color: #181712;
 }
 
 
 
 
 #it{
-    background-color:black;
-    color: whitesmoke;
+background-color:black;
+color: whitesmoke;
 }
 #it2{
-    background-color: whitesmoke;
-    color: black;
+background-color: whitesmoke;
+color: black;
 }
 
 
 #dn{
-    background-color:chocolate;
-    color: khaki;
+background-color:chocolate;
+color: khaki;
 }
 #dn2{
-    background-color: khaki;
-    color: chocolate;
+background-color: khaki;
+color: chocolate;
 }
 
 
 
 #tn{
-    background-color:#d1d5be;
-    color: darkslategray;
+background-color:#d1d5be;
+color: darkslategray;
 }
 #tn2{
-    background-color: darkslategray;
-    color: #d1d5be;
+background-color: darkslategray;
+color: #d1d5be;
 }
 
 
 #opp{
-    background-color: brown;
-    color: orange;
+background-color: brown;
+color: orange;
 }
 #opp2{
-    background-color: orange;
-    color: brown;
+background-color: orange;
+color: brown;
 }
